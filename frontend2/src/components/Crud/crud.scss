@@ -1,0 +1,49 @@
+#crud {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 0px 300px;
+    min-height: 80vh;
+    background-color: rgb(230, 230, 230);
+    place-items: center;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        li {
+            padding: 0px 10px;
+            img {
+                height: 300px;
+                width: 100%;
+            }
+
+        }
+        .add-wishlist{
+            background-color: rgb(187, 17, 178);
+            width: 140px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+            color: white;
+        }
+
+        li:nth-of-type(2) {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        li:nth-of-type(4) {
+           cursor: pointer;
+           transition: 300ms;
+           &:hover{
+            color: goldenrod;
+           }
+        
+        }
+
+    }
+
+}

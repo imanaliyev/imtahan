@@ -1,0 +1,93 @@
+@media only screen and (max-width: 770px) {
+    body {
+      footer .mid-footer ul{
+        width: fit-content;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+      #crud{
+        grid-template-columns: auto auto;
+        img{
+          height: 150px;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 1250px) {
+    nav{
+      display: none !important;
+
+    }
+    .responsive-nav{
+      display: flex !important;
+    }
+
+  }
+  @media only screen and (max-width: 842px) {
+    body {
+      header{
+        padding: 10px 100px;
+      }
+      #crud{
+        padding: 10px 0px;
+      }
+      #welcome{
+        padding: 10px 0px;
+      }
+      #welcome .welcome-left p{
+        max-width: 200px;
+        text-align: center;
+      }
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    body {
+      #customer .container p{
+       max-width: 200px;
+       text-align: center;
+      }
+      #carusel #container #txt h1{
+        font-size: 22px;
+      }
+      #carusel #container #txt button{
+        width: 100px;
+        height: 20px;
+        font-size: 14px;
+      }
+      #customer .container .text{
+        max-width: 200px;
+      }
+    }
+  }
+  @media only screen and (max-width: 940px) {
+    body {
+      #blog{
+        padding: 30px 0px;
+      }
+      #blog .cards{
+        flex-wrap: wrap;
+      }
+      header .responsive-nav{
+        width: fit-content;
+      }
+    }
+  }
+  @media only screen and (max-width: 540px) {
+    body {
+      footer{
+        padding: 10px 0px;
+      }
+      #sign-up .container{
+        flex-wrap: wrap;
+      }
+      .lower-footer{
+        padding: 10px 0px;
+      }
+    }
+  }
+
+  

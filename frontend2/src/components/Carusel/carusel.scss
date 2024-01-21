@@ -1,0 +1,24 @@
+#carusel{
+    #container{
+        width: 100%;
+   
+        #txt{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+            justify-content: center;
+            text-shadow: none;
+            button{
+                width: 160px;
+                height: 30px;
+                border-radius: 10px;
+                color: goldenrod;
+            }
+            h1{
+                font-size: 80px;
+                
+            }
+        }
+    }
+}
